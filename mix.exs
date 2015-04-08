@@ -9,6 +9,7 @@ defmodule IsUp.Mixfile do
       build_embedded: Mix.env == :prod,
       start_permanent: Mix.env == :prod,
       deps: deps,
+      description: "Check whether a given url is up.",
       package: [
         contributors: ["John Otander"],
         licenses: ["MIT"],
