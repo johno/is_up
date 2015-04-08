@@ -5,7 +5,7 @@ Elixir package to check whether a given url is up.
 ## Usage
 
 ```elixir
-IsUp.check('https://google.com') # => true
+IsUp.check("https://google.com") # => true
 ```
 
 ## Tests
@@ -26,4 +26,4 @@ MIT
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
 
-Crafted with <3 by John Otander ([@4lpine](https://twitter.com/4lpine)).
+Crafted with <3 by [John Otander](http://johnotander.com) ([@4lpine](https://twitter.com/4lpine)).
