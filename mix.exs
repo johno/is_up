@@ -11,7 +11,7 @@ defmodule IsUp.Mixfile do
       deps: deps,
       description: "Check whether a given url is up.",
       package: [
-        contributors: ["John Otander"],
+        maintainers: ["John Otander"],
         licenses: ["MIT"],
         links: %{ "Github" => "https://github.com/johnotander/is_up" }
       ]
