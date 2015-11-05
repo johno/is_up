@@ -1,4 +1,4 @@
-# is_up
+# is_up [![Build Status](https://travis-ci.org/johnotander/is_up.svg?branch=master)](https://travis-ci.org/johnotander/is_up)
 
 Elixir package to check whether a given url is up.
 
