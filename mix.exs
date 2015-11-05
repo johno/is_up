@@ -37,7 +37,9 @@ defmodule IsUp.Mixfile do
   defp deps do
     [
       {:ibrowse, github: "cmullaparthi/ibrowse", tag: "v4.1.2"},
-      {:httpotion, "~> 2.1.0"}
+      {:httpotion, "~> 2.1.0"},
+      {:earmark, ">= 0.0.0", only: :dev},
+      {:ex_doc, "~> 0.10", only: :dev}
     ]
   end
 end
