@@ -6,6 +6,7 @@ Elixir package to check whether a given url is up.
 
 ```elixir
 IsUp.check("https://google.com") # => true
+IsUp.check("https://someurlthatdoesnotexist.foobar") # => false
 ```
 
 ## Tests
