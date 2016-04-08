@@ -2,7 +2,19 @@
 
 Elixir package to check whether a given url is up.
 
-## Usage
+## How to use
+
+Add the package as a dependency in your Elixir project using something along the lines of:
+
+```elixir
+defp deps do
+  [{:database_url, "~> 0.1.0"}]
+end
+```
+
+And add `:httpotion` in your OTP application.
+
+Then you can open `iex -S mix` and try it:
 
 ```elixir
 IsUp.check("https://google.com") # => true
