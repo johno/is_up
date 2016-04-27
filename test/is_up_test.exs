@@ -8,4 +8,8 @@ defmodule IsUpTest do
   test "it returns false for a site that is not up" do
     assert !IsUp.check("http://foobar.com/fake")
   end
+
+  test "it returns false for a site with a timeout" do
+    assert !IsUp.check("http://www.google.com:81")
+  end
 end
