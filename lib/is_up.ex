@@ -15,7 +15,11 @@ defmodule IsUp do
   Returns a boolean.
   """
   def check(url) do
-    response = HTTPotion.head(url)
-    HTTPotion.Response.success?(response, :extra)
+    try do
+      response = HTTPotion.head(url)
+      HTTPotion.Response.success?(response, :extra)
+    rescue
+      _ -> false 
+    end
   end  
 end
